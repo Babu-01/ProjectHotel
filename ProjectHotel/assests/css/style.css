@@ -15,6 +15,7 @@ body {
     padding-bottom: 20px;
     background-color: white;
     box-shadow: rgb(149 157 165 / 10%) 0px 4px 28px;
+    z-index: 10;
 }
 
 .logo{
