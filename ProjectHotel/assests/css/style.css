@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Okra, Helvetica, sans-serif;
+}
+body {
+    background-color: #DCDCDC;
+}
+/* HEADER */
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+
+    padding-top: 10px;
+
+    padding-bottom: 20px;
+
+    background-color: white;
+
+    box-shadow: rgb(149 157 165 / 10%) 0px 4px 28px;
+
+}
+
+.logo{
+
+    margin-left: 140px;
+
+    width: 125px;
+
+}
+
+.menu{
+
+    display: flex;
+
+    margin-left: 630px;
+
+    margin-top: 20px;
+
+}
+
+.menu p{
+
+    margin-right: 60px;
+
+}
+
+.menu p:hover {
+    cursor: pointer;
+    color: red;
+
+}
+/* CONTENT */
+.content-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.content-con-left {
+    width: 20%;
+    background-color: white;
+    margin-right: 5px;
+    padding: 8px 12px;
+    text-align: right;
+    border-radius: 4px;
+    position: sticky;
+    height: 730px;
+    top: 88px;
+}
+.content-con-left ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    list-style-type: none;
+    letter-spacing: 2px;
+    color: #1c1c1c;
+}
+.content-con-left ul li:hover{
+    color: red;
+}
+.content-con-right {
+    width: 80%;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 4px;
+}
+.content-con-right h2 {
+    font-weight: 100;
+}
+.food {
+    display: flex;
+    padding-bottom: 4%;
+    border-bottom: 1px solid #8080806e;
+    width: 80%;
+    margin-top: 3%;
+}
+.foodImage {
+    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+}
+.vegIcon {
+    width: 20px;
+    margin-left: 10px;
+}
+.food-content {
+    margin-left: 15px;
+    width: 80%;
+}
+.food-name {
+    display: flex;
+    margin-bottom: 10px;
+}
+.food-content-color{
+    color: #000000ba;
+    margin-bottom: 10px;
+}
+.quantity {
+    width: fit-content;
+    display: flex;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+.quantity i {
+    cursor: pointer;
+}
+#count {
+    margin: 0px 12px;
+}
+.description {
+    color: #000000a3;
+    font-size: 14px;
+    width: 70%;
+}
+.order {
+    display: flex;
+    align-items: center;
+}
+.order button {
+    background-color: #008000b8;
+    padding: 11px 32px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.order button:hover {
+    background-color: #00800099;
+}
+/*CART*/
+.cart {
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cart-title {
+    margin-bottom: 12px;
+}
+.cart-con {
+    display: flex;
+}
+.cart-con-images {
+    display: flex;
+    padding-right: 12px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.cart-con-images img {
+    margin-right: 12px;
+}
+.cart-con-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+/* FOOTER */
+.footer p{
+    color: white;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;;
+    padding: 60px 140px;
+    background-color:black;
+    box-shadow: rgb(149 157 165 / 10%) 0px 4px 28px;
+}
+.box2{
+    margin-left: 200px;
+}
+.box3{
+    margin-left: 200px;
+}
+.box4{
+    margin-left: 100px;
+}
+.footer p:hover {
+    cursor: pointer;
+    color: red;
+}
