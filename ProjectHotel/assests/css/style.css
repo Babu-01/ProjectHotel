@@ -11,8 +11,6 @@ body {
     position: sticky;
     top: 0;
     display: flex;
-    width: 100%;
-    overflow:hidden;
     padding-top: 10px;
     padding-bottom: 20px;
     background-color: white;
@@ -189,8 +187,6 @@ body {
     padding: 60px 140px;
     background-color:black;
     box-shadow: rgb(149 157 165 / 10%) 0px 4px 28px;
-    width: 100%;
-    overflow:hidden;
 }
 .box2{
     margin-left: 200px;
